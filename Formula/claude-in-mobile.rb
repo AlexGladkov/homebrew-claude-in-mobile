@@ -7,7 +7,7 @@ class ClaudeInMobile < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/AlexGladkov/claude-in-mobile/releases/download/v#{version}/claude-in-mobile-#{version}-darwin-arm64.tar.gz"
-      sha256 "REPLACE_WITH_ARM64_SHA256"
+      sha256 "75788c453bfd7cf8f11e9609614b983801fb04540d69a48e2642e21f91f67682"
     else
       url "https://github.com/AlexGladkov/claude-in-mobile/releases/download/v#{version}/claude-in-mobile-#{version}-darwin-x86_64.tar.gz"
       sha256 "REPLACE_WITH_X86_64_SHA256"
