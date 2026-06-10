@@ -1,17 +1,17 @@
 class ClaudeInMobile < Formula
   desc "Fast native CLI for mobile device automation (Android/iOS/Aurora/Desktop)"
   homepage "https://github.com/AlexGladkov/claude-in-mobile"
-  version "3.11.5"
+  version "3.12.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/AlexGladkov/claude-in-mobile/releases/download/v#{version}/claude-in-mobile-#{version}-darwin-arm64.tar.gz"
-      sha256 "01c92374b1288c6c1a985d3698e0d38e9d03807aedd934b6472733382a8e94e3"
+      sha256 "58b3225769e1a58b0d3e8e9b338ee56f078988d8e3a1ab104411233351dbbff9"
     end
     on_intel do
       url "https://github.com/AlexGladkov/claude-in-mobile/releases/download/v#{version}/claude-in-mobile-#{version}-darwin-x86_64.tar.gz"
-      sha256 "7b675af885b7b4a811bf5b4d7db5cf98022f3ebcec7c1743d003b253c266dd23"
+      sha256 "ebd0df5b2e5d19892cf17783dfa198f71a217b633c5abc359f217cc68a8aa763"
     end
   end
 
